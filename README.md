@@ -30,5 +30,5 @@ M5StackをリセットするとConnected状態でもキーを送信できない�
 Resolution of this problem is welcome !!! \
 解決方法募集中！！！
 
-Also, please beware that it sometimes make my laptop's trackpad and keyboard sort of unresponsive...
+Also, please beware that it sometimes make my laptop's trackpad and keyboard sort of unresponsive... \
 あと、たまにトラックパッドとキーボードがうまく動作しなくなることがあるので注意！
