@@ -1,6 +1,8 @@
 # About 概要
-let M5Stack to send keys(ctrl+alt+del) like keyboard via BLE HID. \
-M5StackがBLE HIDデバイスつまりBTキーボードになります。
+let M5Stack to send keys(ctrl+alt+del) to PC/smart phones like BT keyboard via BLE HID. Especially CTRL+ALT+DEL keys :-)\
+M5StackがBLE HIDデバイスつまりBTキーボードになり、PCやスマホにキーを送信できます。特にCTRL+ALT+DEL。
+
+<img src="https://user-images.githubusercontent.com/618417/38174769-6b217e7c-360d-11e8-9a94-2b2ac8410b8e.jpg" width="400px">
 
 # Build ビルド
 Follow instructions on the below link to setup Arduino for M5Stack. \
