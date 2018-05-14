@@ -27,11 +27,10 @@ COnnectedと表示されていれば、ボタンを押すと以下のキーコ�
 * B button: CTRL+ALT+DEL :-)
 
 # Restriction 制限事項
-Currently, it does not send keys correctly after resetting M5Stack. Please remove the BLE device "M5StackHID" from PC/SmartPhone and add the device again. \
-M5StackをリセットするとConnected状態でもキーを送信できないようです。その場合、PC/スマホ側でBTデバイス"M5StackHID"を削除してから、追加しなおしてください。
-
-Resolution of this problem is welcome !!! \
-解決方法募集中！！！
+~~Currently, it does not send keys correctly after resetting M5Stack. Please remove the BLE device "M5StackHID" from PC/SmartPhone and add the device again.~~ \
+~~M5StackをリセットするとConnected状態でもキーを送信できないようです。その場合、PC/スマホ側でBTデバイス"M5StackHID"を削除してから、追加しなおしてください。~~ \
+It was [fixed](https://github.com/mhama/M5StackHIDCtrlAltDel/pull/3). Thank you! \
+[解決済み](https://github.com/mhama/M5StackHIDCtrlAltDel/pull/3)です。ありがとうございました！
 
 Also, please beware that it sometimes make my laptop's trackpad and keyboard sort of unresponsive... \
 あと、たまにトラックパッドとキーボードがうまく動作しなくなることがあるので注意！
