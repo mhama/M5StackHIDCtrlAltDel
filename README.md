@@ -13,6 +13,9 @@ https://github.com/m5stack/M5Stack
 Clone this project and compile M5StackHIDCtrlAltDel.ino and upload to M5Stack. \
 このプロジェクトをCloneして、M5StackHIDCtrlAltDel.ino をコンパイルし、M5Stackにアップロードしてください。
 
+If you encounter "sketch is too big" error, please consider using older arduino-esp32 library, specifically [25dff4f04](https://github.com/espressif/arduino-esp32/commit/25dff4f044151f7f766c64b9d2ad90398472e6b3) commit-id version. by `git checkout 25dff4f04` on `Documents\Arduino\hardware\espressif\esp32` directory (case of windows) . \
+ビルド時に「スケッチが大きすぎます」というエラーが出る場合は、arduino-esp32のバージョン変更（コミットID　[25dff4f04](https://github.com/espressif/arduino-esp32/commit/25dff4f044151f7f766c64b9d2ad90398472e6b3) に変更）でなおるかもしれません。Windowsならば `Documents\Arduino\hardware\espressif\esp32` ディレクトリで `git checkout 25dff4f04` としてみてください。
+
 # Usage 使用方法
 It behaves like BT Keyboard. You need to pair the device with your PC/Smartphone. M5Stack is shown as "M5StackHID".
 Bluetoothキーボードのように動作します。PCやスマホ上でBluetoothデバイスを追加してください。M5StackHIDという名前で表示されます。
