@@ -140,6 +140,9 @@ void DisplayGuide() {
 
 class MyCallbacks : public BLEServerCallbacks {
   void onConnect(BLEServer* pServer){
+    BLE2902* desc;
+    desc = (BLE2902*) input->getDescriptorByUUID(BLEUUID((uint16_t)0x2902));
+    desc->setNotifications(true);
     isConnected = true;
     DisplayConnectionText();
   }
