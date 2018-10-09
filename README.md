@@ -34,3 +34,4 @@ It was [fixed](https://github.com/mhama/M5StackHIDCtrlAltDel/pull/3). Thank you!
 
 Also, please beware that it sometimes make my laptop's trackpad and keyboard sort of unresponsive... \
 あと、たまにトラックパッドとキーボードがうまく動作しなくなることがあるので注意！
+テスト
